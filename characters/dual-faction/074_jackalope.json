@@ -23,7 +23,7 @@
   "slicingDamageMitigation": 0,
   "magicalDamageMitigation": 0,
   "summonsCharacterIds": [],
-  "isUnselectableInTroupe": true,
+  "isUnselectableInTroupe": false,
   "signatureMove": {
     "name": "Gore",
     "upgradeFor": "Rising Attack",
