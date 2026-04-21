@@ -4,6 +4,7 @@ Data repository for the [moonstone-companion](https://github.com/Garemat/moonsto
 
 Character portrait images are bundled as a separate `character_images.zip` artifact and are an optional download within the app. Head/portrait icons for all 133 characters are included.
 
+Soon to be hosted by DB backend
 ---
 
 ## Local Development
