@@ -82,7 +82,7 @@
     },
     {
       "name": "Fleeting Presence",
-      "description": "This action may be used whilst this model is active and may not be removed from this card by any abilities. This model suffers 2 Wds. Then, if this character wasn't slain, it may immediately take an action available to it costing (1) or (2) energy without spending energy.",
+      "description": "This action may only be used whilst this model is active and may not be removed from this card by any abilities. This model suffers 2 Wds. Then, if this character wasn't slain, it may immediately take an action available to it costing (1) or (2) energy without spending energy.",
       "abilityType": "Active",
       "energyCost": 0,
       "range": "",
@@ -92,7 +92,7 @@
       "arcaneOutcomes": []
     },
     {
-      "name": "Terrorburst",
+      "name": "Terrorblast",
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,

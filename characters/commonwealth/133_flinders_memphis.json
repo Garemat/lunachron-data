@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "The Faculty",
-      "description": "If Old Polly, Prof Boffinsworth & Flinders Memphis are seen in this troupe at the start of the game, this character gains Rogue, Animal & Machine keywords.",
+      "description": "If Old Polly, Prod. Boffinsworth and Flinders Memphis were taken in this troupe at the start of the game, this character gains Rogue, Animal and Machine keywords.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Augments",
-      "description": "Friendly characters with Reload [...] gain the Machine keyword.",
+      "description": "Friendly charactres with Reload[...] gain the Machine keyword.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Have You Tried Turning it Off and On Again?",
-      "description": "After a friendly Machine sees an Arcane Hand, they may automatically suffer 1 Wd, shuffle the hand back into the Arcane Deck and redraw the same number of cards (Resist Hand is unchanged). Once per turn.",
+      "description": "After a friendly Machine draws an Arcane Hand, they may suffer 1 Wd, shuffle the hand back into the Arcane Deck and redraw the same number of cards (Resist Hand is unchanged). Once per turn.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Overclock",
-      "description": "Target other friendly Machine suffers 1 Wd then may take any action available to them which would normally have an energy cost of {2}. You may only target each character once per turn.",
+      "description": "Target other friendly machine suffers 1 Wd, then may take any action available to them which would normally have an energy cost of (2). You may only target each character once per turn.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "4\"",

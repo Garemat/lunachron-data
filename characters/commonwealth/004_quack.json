@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Weakling",
-      "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model -1 energy.",
+      "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Premonition",
-      "description": "If an enemy character declares this model as a target of an action, you may interrupt the action to make a reaction step by discarding 1 energy. If you do, the enemy must complete the action if possible and may not choose a new target.",
+      "description": "If an enemy character declares this model as a target of an action, you may interrupt the action to make a reaction step by discarding one energy. If you do, the enemy must complete the action if possible and may not choose a new target.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

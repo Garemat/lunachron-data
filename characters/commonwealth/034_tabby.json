@@ -66,41 +66,14 @@
     },
     {
       "name": "Energy Syphon",
-      "description": "Target a friendly model.",
-      "abilityType": "Arcane",
+      "description": "Target a friendly model. Flip an Arcane card and redistribute up to X energy from that model to any combination of models within 8\", where X is the value on the card.",
+      "abilityType": "Active",
       "energyCost": 0,
       "range": "8\"",
       "pulse": false,
       "oncePerTurn": true,
       "oncePerGame": false,
-      "arcaneOutcomes": [
-        {
-          "text": "Flip an Arcane card and redistribute up to X energy from that model to any combination of models within 8\" of this model, where X is the value on the card.",
-          "validCards": [
-            {
-              "colour": "Green",
-              "value": "X"
-            },
-            {
-              "colour": "Blue",
-              "value": "X"
-            },
-            {
-              "colour": "Pink",
-              "value": "X"
-            }
-          ]
-        },
-        {
-          "text": "The target loses 2 energy and this character suffers 2 Wds.",
-          "validCards": [
-            {
-              "colour": "Catastrophe",
-              "value": "X"
-            }
-          ]
-        }
-      ]
+      "arcaneOutcomes": []
     },
     {
       "name": "Caustic Contract",
@@ -113,10 +86,10 @@
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Target model suffers X-1 Wds, then it gains Protection (The first time this character would suffer Dmg, reduce that Dmg to {Null}), until end of turn.",
+          "text": "Target model suffers X-1 Wds, then it gains Protection [The first time this character would suffer Dmg, reduce that Dmg to {Null}], until end of turn.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]

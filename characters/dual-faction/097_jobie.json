@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "The Bright Side of Death",
-      "description": "Immediately after models have been deployed but before turn 1 begins, friendly characters with Reanimate gain [Reanimate Jobie (0)]: Place a friendly slain Jobie in base contact with this model. Restore all its health. It gains +2 energy. It may activate this turn. A friendly troupe may only enter play via Reanimate Jobie once per turn, until end of game.",
+      "description": "Immediately after models have been deployed but before turn 1 begins, friendly characters with Reanimate gain [Reanimate Jobie (0): Place a friendly slain Jobie in base contact with this model. Restore all it's health. It gains +2 energy. It may activate this turn. A friendly Jobie may only enter play via Reanimate Jobie once per turn], until end of game.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,16 +66,20 @@
     },
     {
       "name": "A Cunning Plan",
-      "description": "This character places one Moonstone it is in possession of, within 2\" of itself at depth value of 1. Then it is immediately slain.",
-      "abilityType": "Passive",
+      "description": "This model may place one Moonstone it is in possession of, within 2\" of itself at depth value of ‘1’. Then it is immediately slain.",
+      "abilityType": "Active",
+      "energyCost": 1,
+      "range": null,
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": []
     },
     {
-      "name": "That's Mine, This is Mine...",
+      "name": "That’s Mine, This is Mine...",
       "description": "This model gains possession of one Moonstone it is in base contact with, with a depth value of 0, unless it has no cards or enemy engagements.",
-      "abilityType": "Passive",
+      "abilityType": "Active",
+      "energyCost": 3,
+      "range": null,
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": []
@@ -91,16 +95,16 @@
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Target suffers X Impact Dmg. Regardless of its depth value or enemy engagements.",
+          "text": "Target other model and this character suffer X Impact Dmg.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Green",
               "value": "X"
             }
           ]
         },
         {
-          "text": "If the target is slain, the target loses possession of one Moonstone they are carrying. Place it in base contact with the target at depth value of 1.",
+          "text": "This character is slain, and then the target loses possession of one Moonstone they are carrying. Place it in base contact with the target at depth value of 1.",
           "validCards": [
             {
               "colour": "Catastrophe",

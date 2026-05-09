@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Expel",
-      "description": "Whenever any character suffers a Catastrophe, after resolving the action, draw an Arcane card for each Catastrophe suffered. Look, then place it face down beside this character card. At any point you can add the card to your Arcane or Arcane Resist hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck. This character can hold a maximum number of cards at any time equal to the current turn number. If an additional card is drawn, choose a card to shuffle back into the Arcane Deck.",
+      "description": "Whenever any character suffers a Catastrophe, after resolving the action, draw an Arcane card for each Catastrophe suffered. Look, then place it face down besides this character card. At any point you can add the removed card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck. This character can hold a maximum number of cards at any time equal to the current turn number; if an additional card is drawn, choose a card to shuffle back into the Arcane Deck.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -75,7 +75,7 @@
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Place a 30mm Diameter Wooded Patch within 3X\" and LoS on open ground. This remains in play until end of game. A maximum of 3 Wooded Patches may be placed by this troupe. If a fourth is placed you must choose and remove a Wooded Patch you created earlier this game.",
+          "text": "Place a 50mm Diameter Wooded Patch within 3X\" and LoS on open ground. This remains in play until end of game. A maximum of 3 Wooded Patches may be placed by this troupe. If a fourth is placed you must choose and remove a Wooded Patch you created earlier this game.",
           "validCards": [
             {
               "colour": "Green",
@@ -96,7 +96,7 @@
     },
     {
       "name": "Malachite Ritual",
-      "description": "While invoking, you can share arcane abilities of other characters.",
+      "description": "Whilst resolving, ignore passive abilities of other characters.",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "8\"",
@@ -123,7 +123,7 @@
           ]
         },
         {
-          "text": "Target suffers an additional 1 Wd. Spirits within 6\" suffer 2 Wds.",
+          "text": "Target suffers X Wds. Spirits suffer an additional 1 Wd.",
           "validCards": [
             {
               "colour": "Pink",
@@ -132,7 +132,7 @@
           ]
         },
         {
-          "text": "This model suffers 2 Wds.",
+          "text": "This model and spirits within 6\" suffer 2 Wds",
           "validCards": [
             {
               "colour": "Catastrophe",

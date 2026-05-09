@@ -66,7 +66,7 @@
     },
     {
       "name": "Look at the Shiny Thing",
-      "description": "If this character is in possession of one or more Moonstones during the Replenish Step, you may have another friendly character within 4\" and LoS gain +1 energy.",
+      "description": "f this character is in possession of one or more Moonstones during the Replenish Step, you may have another friendly character within 4\" and LoS gain +1 energy.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Plant the Placard",
-      "description": "Move all other friendly characters within the pulse up to 1\". This character cannot take Jog or Step actions or make a Reaction Step until end of turn.",
+      "description": "Move all other friendly characters within the pulse up to 1\". This character cannot take Jog or Step actions, or make a Reaction Step until end of turn.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "6\" Pulse",
@@ -109,13 +109,13 @@
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 4,
-      "range": "3\"",
+      "range": "",
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Choose a model within 3\" and LoS of this character. Then choose another model within 3×X\" and LoS of the second model. Place the first model within 3×X\" of the second model.",
+          "text": "Choose a model within 3\" and LoS of this character. Then choose another model within 3X\" and LoS of the second model. Place the first model within 3X\" of the second model.",
           "validCards": [
             {
               "colour": "Pink",

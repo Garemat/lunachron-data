@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Rusty Anchor",
-      "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +1.",
+      "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Bedeviled Seas",
-      "description": "At the start of the Replenish Step this model gains +3 energy if there is a Water Feature within 4\".",
+      "description": "At the start of the Replenish Step this model gains +1 energy if there is a Water Feature within 4\".",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Rise From The Deep",
-      "description": "When this character uses Reanimate it may place the model entering play within a Water Feature within 4\" instead of base contact. When this model or a friendly model enters play via Reanimate within a Water Feature it gains +1 energy and may Jog freely over Water Features until end of turn.",
+      "description": "When this character uses Reanimate it may place the model entering play within a Water Feature within 4\" instead of base contact. When this model or another friendly model enters play via Reanimate within a Water Feature it gains +1 energy and may Jog freely over Water Features until end of turn.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -132,7 +132,7 @@
           "text": "Target Pirate or Troll gains X energy and suffers -X Arcane Stat until end of turn.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]

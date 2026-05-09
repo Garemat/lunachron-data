@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Frostbite",
-      "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +2. If at least one friendly model was slain this turn, Melee Dmg dealt by this character cannot be reduced below {0}.",
+      "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +2. If at least one friendly model was slain this turn, Melee Dmg dealt by this character cannot be reduced by passive abilities.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,24 +74,14 @@
     },
     {
       "name": "Ice in the Veins",
-      "description": "Flip an Arcane Card.",
-      "abilityType": "Arcane",
+      "description": "Flip an Arcane Card. If the card is Blue X, restore X+1 Wds.",
+      "abilityType": "Active",
       "energyCost": 1,
       "range": "",
       "pulse": false,
       "oncePerTurn": true,
       "oncePerGame": false,
-      "arcaneOutcomes": [
-        {
-          "text": "Restore X+1 Wds.",
-          "validCards": [
-            {
-              "colour": "Blue",
-              "value": "X"
-            }
-          ]
-        }
-      ]
+      "arcaneOutcomes": []
     },
     {
       "name": "Eternal Chill",
@@ -107,7 +97,7 @@
           "text": "Target suffers X Magical Dmg and gains [Slow: This character's Jog actions are limited to 2\"], until end of turn.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]

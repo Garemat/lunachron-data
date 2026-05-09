@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Drain Life",
-      "description": "Target other friendly Spirit or Risen is slain. The next time this character uses Reanimate this turn, reduce its energy cost to {0} and gain +2 Arcane Stat for the duration of the action.",
+      "description": "Target other friendly character is slain. If the target wasn't a Psychopomp then the next time this character uses Reanimate this turn, reduce its energy cost to (0) and gain +2 Arcane Stat for the duration of the action.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "4\"",
@@ -69,7 +69,7 @@
     },
     {
       "name": "Necrotic Salve",
-      "description": "Target friendly character restores 1 Wd. If the target is a Noble or Risen and at least one friendly model was slain this turn, the target also gains +1 energy.",
+      "description": "Target friendly character restores 1 Wd. If at least one friendly model was slain this turn, the target also gains +1 energy.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "4\"",
@@ -123,7 +123,7 @@
       "energyCost": 2,
       "range": "",
       "pulse": false,
-      "oncePerTurn": true,
+      "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "text": "This model suffers 2 Wds.",
+          "text": "This model suffers 3 Wds.",
           "validCards": [
             {
               "colour": "Catastrophe",

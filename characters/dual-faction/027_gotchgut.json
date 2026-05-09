@@ -74,7 +74,7 @@
     },
     {
       "name": "Bodyguard",
-      "description": "If a friendly Noble within 4\" and LoS suffers Dmg, you have this character suffer all that Dmg instead.",
+      "description": "If a friendly Noble within 4\" and LoS suffers Dmg, you may have this character suffer all that Dmg instead.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,

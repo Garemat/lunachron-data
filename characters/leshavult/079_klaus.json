@@ -58,14 +58,14 @@
   "abilities": [
     {
       "name": "Flail",
-      "description": "If this character deals Slicing or Piercing Melee Dmg, reduce the Dmg dealt to {Null}. If this character plays a High Guard or Low Guard during melee then it suffers 2 Wds during the End Step.",
+      "description": "If this character deals Slicing or Piercing Melee Dmg, reduce the Dmg dealt to W. If this character deals Impact Melee Dmg increase the Dmg dealt by +2. If this character plays a High Guard or Low Guard during Melee then it suffers 2 Wds during the End Step.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": []
     },
     {
-      "name": "Egged On",
+      "name": "Egged-On",
       "description": "This character gains +1 Melee Stat for each other friendly Cultist within 6\".",
       "abilityType": "Passive",
       "oncePerTurn": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Kinship [Raegan, Leshavult Priestess]",
-      "description": "If the friendly named character is within 6\" during the Replenish Step, this character gains [Protection: The first time this character would suffer Dmg each turn, reduce that Dmg to {Null}], until end of game.",
+      "description": "If the friendly named character is within 6\" during the Replenish Step, this character gains [Protection: The first time this character would suffer Dmg each turn, reduce that Dmg to W], until end of turn.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Tubthumping",
-      "description": "The first time this game this character's energy is reduced to 0 health boxes remaining, flip an Arcane Card. If the result is a Catastrophe, then this character is slain, otherwise it remains in play with X health boxes remaining, where X is the value on the flipped card.",
+      "description": "The first time this game this character is reduced to 0 health boxes remaining, flip an Arcane Card. If the result is a Catastrophe, then this character is slain, otherwise it remains in play with X health boxes remaining, where X is the value on the flipped card.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Hold my Beer",
-      "description": "All characters within the pulse suffer 1 Catastrophe printed on their card. The Klaus player chooses the catastrophe if a character has several, the targets if required and the order in which all effects occur.",
+      "description": "All characters within the Pulse suffer 1 Catastrophe printed on their card. The Klaus player chooses the catastrophe if a character has several, the targets if required and the order in which all effects occur.",
       "abilityType": "Active",
       "energyCost": 4,
       "range": "4\" Pulse",

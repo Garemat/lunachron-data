@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Great Sword",
-      "description": "If this character deals Slicing Melee Dmg, increase the Dmg dealt by +3. If this character deals Impact or Piercing Melee Dmg, increase the Dmg dealt by +1.",
+      "description": ": If this character deals Slicing Melee Dmg, increase the Dmg dealt by +3. If this character deals Impact or Piercing Melee Dmg, increase the Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Intimidate",
-      "description": "Target Human or Goblin suffers -2 Arcane stat and gains [Predictable Combatant]: During a round of combat, before each player selects their combat card, you must reveal your hand to your opponent until end of turn.",
+      "description": "Target Human or Goblin suffers -2 Arcane stat and gains [Predictable Combatant: During a round of combat, before each player selects their combat card, you must reveal your hand to your opponent.] until end of the turn.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "4\"",

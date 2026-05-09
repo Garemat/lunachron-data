@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Amphibious",
-      "description": "This character may Jog over Water Features and gains +1 energy during the Replenish Step if any part of its base is within a Water Feature.",
+      "description": "This character may Jog freely over Water Feature terrain and gains +1 energy during the Replenish Step if any part of its base is within a Water Feature.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

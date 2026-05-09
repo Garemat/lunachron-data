@@ -66,7 +66,7 @@
     },
     {
       "name": "Joy of Entropy",
-      "description": "Whenever another character within 4\" is slain, this character gains +1 energy.",
+      "description": "Whenever another character within 4\" is slain, this character gains +1 energy",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

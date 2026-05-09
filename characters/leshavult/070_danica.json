@@ -66,7 +66,7 @@
     },
     {
       "name": "Meddle with Fate",
-      "description": "Draw 2 cards from the Arcane Deck for each friendly Spirit in play. Place any number of cards face down besides this character card, suffering 2 Wds for each. Then shuffle the remaining cards back into the deck. At any point you can add one or more of these cards to your Arcane or Arcane Resist hand. Cards used this way are shuffled back into the deck at the end of the action. If this character is slain, shuffle all remaining cards back into the deck.",
+      "description": "Draw 2 cards from the Arcane Deck for each friendly Spirit in play. Place any number of cards face down besides this character card, suffering 2 Wds for each. Then shuffle the remaining cards back into the deck. At any point you can add one or more of these cards to your Arcane or Arcane Resist Hand. Cards used this way are shuffled back into the deck at the end of the action. If this character is slain, shuffle all remaining cards back into the deck.",
       "abilityType": "Active",
       "energyCost": 3,
       "range": "",

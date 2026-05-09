@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Reading the Runes",
-      "description": "When this character activates, you may guess a card (colour and number/Catastrophe) then flip an Arcane Card. If you guessed correctly, apply the following effect: Green X: Choose a friendly Norse model within 8\" to gain Protection (The first time this character would suffer Dmg, reduce that Dmg to {Null}), until end of turn. Pink X: Choose a model within 8\" to suffer X Magical Dmg. Blue X: Choose a model within 8\" to restore X+1 Wds. Catastrophe: All models within 2\" suffer 2 Magical Dmg.",
+      "description": "When this character activates, you may guess a card (colour and number, or Catastrophe) then flip an Arcane Card. If you guessed correctly, apply the following effect:",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Manipulate the Runes",
-      "description": "After resolving an Arcane action this model initiated but before shuffling the Arcane Deck, you may set aside any cards from your hand that were played. After shuffling the Arcane Deck, put any number of the set aside cards on the top of the deck in any order and put the remainder on the bottom of the deck in any order.",
+      "description": "After resolving an Arcane action this model initiated but before shuffling the Arcane Deck, you may set aside any cards from your hand that weren't played. After shuffling the Arcane Deck, put any number of the set aside cards on the top of the deck in any order and put the remainder on the bottom of the deck in any order.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,

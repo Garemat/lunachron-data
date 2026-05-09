@@ -66,7 +66,7 @@
     },
     {
       "name": "Eclipse",
-      "description": "When an enemy targets this character with an Arcane Ability, you may reveal a Pink 2 or Blue 2 from your resist hand before any cards are played. If you do, this character reduces all Dmg suffered to {0} during the current action.",
+      "description": "When an enemy targets this character with an Arcane Ability you may reveal a G2 or P2 from your resist hand before any cards are played. If you do, this character reduces all Dmg suffered to W whilst resolving the current action",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -119,7 +119,7 @@
     },
     {
       "name": "Hunting Ritual",
-      "description": "This action is inhibited by Evade Stat.",
+      "description": "This attack is not modified by Evade Stat.",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "8\"",
@@ -132,11 +132,11 @@
           "validCards": [
             {
               "colour": "Green",
-              "value": "1"
+              "value": "3"
             },
             {
               "colour": "Blue",
-              "value": "2"
+              "value": "3"
             },
             {
               "colour": "Pink",

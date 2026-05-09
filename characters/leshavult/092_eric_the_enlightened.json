@@ -66,7 +66,7 @@
     },
     {
       "name": "Woodland Animal",
-      "description": "This character may Jog over Wooded Patches and does not need to expend 1 energy during the Replenish Step if any part of its base is within a Wooded Patch.",
+      "description": "This character may Jog over Wooded Patches and gains +1 energy during the Replenish Step if any part of its base is within a Wooded Patch.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Leshavit's Shield",
-      "description": "If this character would suffer Dmg, you may reduce that Dmg to {Null}. Once per game.",
+      "description": "If this character would suffer Dmg, you may reduce that Dmg to W.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": true,

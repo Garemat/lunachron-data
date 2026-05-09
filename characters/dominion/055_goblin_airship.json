@@ -28,7 +28,7 @@
   "abilities": [
     {
       "name": "Up, Up & Away",
-      "description": "This character may move freely over all terrain and other miniatures during Jog and Step actions provided it does not end the move with the base overlapping another model or barrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, gain bonuses for elevation, or suffer from Falling. When targeted by Arcane actions, this character cannot benefit from Cover.",
+      "description": "This character may move freely over all terrain and other models during Jog and Step actions, provided it does not end the move with the base overlapping another model or barrier terrain. It cannot take the Harvest action or the Melee Attack action, cannot be targeted by Melee Attack actions and does not engage enemy models or become engaged by enemy models. It does not block LoS, provide Cover, or suffer from Falling. When targeted by Arcane Actions, this character does not benefit from Cover.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

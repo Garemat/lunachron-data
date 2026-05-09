@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "The Faculty",
-      "description": "If Old Polly, Prof Boffinsworth & Flinders Memphis are seen in this troupe at the start of the game, this character gains Rogue, Animal & Machine keywords.",
+      "description": "If Old Polly, Prof. Boffinsworth and Flinder Memphis were taken in this troupe at the start of the game, this character gains Rogue, Animal and Machine Keywords.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Explorer's Handbook",
-      "description": "When this character uses an Arcane Ability targeting a friendly Animal that is not at full health, this character may reduce the energy cost by -1. Once per turn.",
+      "description": "When this character uses an Arcane Ability targetting a friendly Animal that is not at full health, you may reduce the energy cost by -1.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Conservation",
-      "description": "If a friendly Animal within 4\" and LoS suffers Dmg, you may have this character suffer all that Dmg instead. Once per turn.",
+      "description": "If a friendly Animal within 4\" and LoS suffers Dmg, you may have this character suffer all that Dmg instead.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,

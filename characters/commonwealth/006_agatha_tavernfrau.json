@@ -139,10 +139,19 @@
           ]
         },
         {
-          "text": "Target's Melee stat is increased by +X until end of turn. Target loses possession of up to one Moonstone they are carrying (place it in base contact with them with a depth value of 1).",
+          "text": "Target's Melee stat is increased by +X until end of turn.",
           "validCards": [
             {
               "colour": "Pink",
+              "value": "X"
+            }
+          ]
+        },
+        {
+          "text": "Target loses possession of up to one Moonstone they are carrying (place it in base contact with them with a depth value of '1').",
+          "validCards": [
+            {
+              "colour": "Catastrophe",
               "value": "X"
             }
           ]

@@ -119,7 +119,7 @@
           "text": "Target loses X energy.",
           "validCards": [
             {
-              "colour": "Green",
+              "colour": "Blue",
               "value": "X"
             }
           ]

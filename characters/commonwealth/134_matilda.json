@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Bingy",
-      "description": "When making a Reaction Step whilst engaged by an enemy, this model may spend {0} energy instead of {1}. Once per turn.",
+      "description": "When making a Reaction Step whilst engaged by an enemy, this model may spend (0) energy instead of (1).",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -115,7 +115,7 @@
               "value": "X"
             },
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]

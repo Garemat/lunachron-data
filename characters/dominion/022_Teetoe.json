@@ -74,7 +74,7 @@
     },
     {
       "name": "Arcane Reflection",
-      "description": "If an enemy player targets this model with an Arcane Ability, after energy is spent but before Arcane Cards are drawn, you may discard 3 energy to reverse the caster and target (i.e. you play their Arcane Ability targeting them).",
+      "description": "If an enemy player targets this model with a Arcane Ability, after energy is spent but before Arcane Cards are drawn, you may discard 3 energy to reverse the caster and target (i.e. you play their Arcane Ability targeting them).",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

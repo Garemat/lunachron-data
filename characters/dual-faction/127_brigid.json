@@ -66,7 +66,7 @@
     },
     {
       "name": "Spirits of the Fallen",
-      "description": "Once per turn this model may use an Arcane Ability that is Arcane Locked on a friendly slain model, ignoring any once per game restrictions, paying its cost as normal.",
+      "description": "Once per turn this model may use an Arcane Ability printed on a friendly slain model, ignoring any Once Per Game restrictions, paying its cost as normal.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Reload [Faerie Fire Pistol]",
-      "description": "The named ability can be used again. This ability cannot be used while this model is engaged.",
+      "description": "The name ability can be used again. This ability cannot be used while engaged.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "",

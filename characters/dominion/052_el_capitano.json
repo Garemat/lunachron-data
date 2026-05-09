@@ -85,7 +85,7 @@
     },
     {
       "name": "Run",
-      "description": "Move target friendly engaged model 3\".",
+      "description": "Move target friendly engaged model 3\"",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "8\"",

@@ -82,7 +82,7 @@
     },
     {
       "name": "Intimidate",
-      "description": "Target Human or Goblin suffers -2 Arcane Stat and gains [Predictable Combatant: During a round of combat, before each player selects their combat card, you must reveal your hand to your opponent.] until end of turn.",
+      "description": "Target Human or Goblin suffers -2 Arcane Stat and gains [Predictable Combatant: During a round of combat, before each player selects their combat card, you must reveal your hand to your opponent.] until end of the turn.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "4\"",

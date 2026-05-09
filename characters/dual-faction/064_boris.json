@@ -112,7 +112,7 @@
     },
     {
       "name": "Summon the Jackalope",
-      "description": "This action can also be taken if there is no friendly Jackalope in play. The Jackalope placed this way has no energy but is considered a permanent additional character in your troupe and may activate this turn.",
+      "description": "This action can only be taken if there is no friendly Jackalope in play.",
       "abilityType": "Arcane",
       "energyCost": 5,
       "range": "",

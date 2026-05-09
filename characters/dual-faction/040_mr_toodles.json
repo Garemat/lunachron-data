@@ -61,7 +61,7 @@
       "description": "All other models within the pulse move 1\" directly away.",
       "abilityType": "Active",
       "energyCost": 1,
-      "range": "2\" Pulse",
+      "range": "2\"",
       "pulse": true,
       "oncePerTurn": true,
       "oncePerGame": false,

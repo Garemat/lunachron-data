@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Dagger",
-      "description": "If this character deals Piercing Melee Dmg, increase the Dmg dealt by +1.",
+      "description": ": If this character deals Piercing Melee Dmg, increase the Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Swift",
-      "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\".",
+      "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\"",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,

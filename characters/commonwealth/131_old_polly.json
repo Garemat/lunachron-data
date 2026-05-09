@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "The Faculty",
-      "description": "If Old Polly, Prof Boffinsworth & Flinders Memphis are seen in this troupe at the start of the game, this character gains Rogue, Animal & Machine keywords.",
+      "description": "If Old Polly, Prof. Boffinsworth and Flinders Memphis were taken in this troupe at the start of the game, this character gains Rogue, Animal and Machine Keywords",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Wily Old Weasel",
-      "description": "If a friendly Rogue takes an Arcane action within 6\" you may reduce the energy cost by -1. Once per turn.",
+      "description": "If a friendly Rogue takes an Arcane action within 6\" you may reduce its energy cost by -1.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Cockatrice Companion",
-      "description": "When this character targets an enemy that has no energy with a Melee Attack or Petrifying Gaze action, increase any Dmg dealt by +1.",
+      "description": "When targetting an enemy character that has no energy with a Melee Attack or Petrifying Gaze action, increase any Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

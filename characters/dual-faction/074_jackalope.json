@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Razor Sharp Antlers",
-      "description": "If this character deals Piercing Melee Dmg, increase the Dmg dealt by +2.",
+      "description": "If this character deals Piercing Melee Dmg increase the Dmg dealt by +2.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Burrowing Claws",
-      "description": "This model gains possession of one Moonstone it is in base contact with regardless of its depth value. This ability cannot be used while this model is engaged.",
+      "description": "This model gains posession of one Moonstone it is in base contact with regardless of its depth value. This ability cannot be used while this model is engaged.",
       "abilityType": "Active",
       "energyCost": 3,
       "range": "",

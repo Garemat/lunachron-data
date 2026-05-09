@@ -52,7 +52,7 @@
     },
     {
       "name": "I Want My Nanny!",
-      "description": "When an enemy character declares this model as a target of an action, you may interrupt the action to move this model 2\" directly towards a friendly Nanny. If you do, the enemy must complete the action if possible and may not choose a new target. Once per turn.",
+      "description": "When an enemy character declares this model as a target of an action, you may interupt the action to move this model 2\" directly towards a friendly Nanny. If you do, the enemy must complete the action if possible and may not choose a new target.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,

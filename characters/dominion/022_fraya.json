@@ -66,7 +66,7 @@
     },
     {
       "name": "Trickster",
-      "description": "When this model successfully bluffs, after resolving the effect you may reveal the bluff and gain +3 energy.",
+      "description": "When this model successfully bluffs, after resolving the effect you may reveal the bluff and gain +3 energy",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "name": "Dizzly Spell",
+      "name": "Dizzy Spell",
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,

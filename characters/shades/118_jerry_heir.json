@@ -66,7 +66,7 @@
     },
     {
       "name": "Stage Roll",
-      "description": "When an enemy targets this character with an Arcane Ability you may reveal a card from your resist hand before any cards are played. After resolving the current action, this model may move X\" where X is the value of the revealed card.",
+      "description": "When an enemy targets this character with an Arcane Ability you may reveal a PX from your resist hand before any cards are played. After resolving the current action, this model may move X\" where X is the value of the revealed card.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Swift",
-      "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\". Once per turn.",
+      "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\".",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -91,7 +91,7 @@
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Target enemy without Frightened gains [Frightened: At the start of the Discard Step, the player that used Stage Fright flips an Arcane Card then moves this model up to X+1\"], until end of turn.",
+          "text": "Target enemy without Frightened gains [Frightened: At the start of the Discard Step, the player that used Stage Fright flips an Arcane Card then moves this model up to X+1\". Catastrophe: Move 0\"], until ths character is slain.",
           "validCards": [
             {
               "colour": "Green",

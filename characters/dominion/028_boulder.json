@@ -74,7 +74,7 @@
     },
     {
       "name": "Calcify",
-      "description": "At the end of the Replenish Step you may have one enemy engaged by this model lose 1 energy.",
+      "description": "Models engaged by this character during the Replenish Step generate -1 energy.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Stone Song",
-      "description": "This ability is not modified by Cover.",
+      "description": "This ability is not modified by Cover",
       "abilityType": "Arcane",
       "energyCost": 1,
       "range": "6\"",

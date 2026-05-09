@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Resonance",
-      "description": "Friendly Spirits within 8\" have a reserve hand of +2 cards when targeted by an enemy Arcane Ability.",
+      "description": "Friendly Spirits within 8\" have a resist hand of +2 cards when targeted by an enemy Arcane Ability.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Slip through the Deadlands",
-      "description": "Friendly Spirits within 8\" gain: When making a Step action, this model may be placed within 1\" of itself instead of moving 1\". Once per turn.",
+      "description": "Friendly Spirits within 8\" gain [Blink: When making a Step action, this model may be placed within 1\" of itself instead of moving 1\". Once per turn].",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Incorporeal Form",
-      "description": "When this character activates, you may discard 1 energy. If it does, this character cannot take Harvest actions but reduces all non-Magical Dmg dealt and suffered to {0} and may move freely over models and terrain during Jog actions, provided bases do not overlap at the end of the movement, until end of turn.",
+      "description": "When this character activates it may discard 1 energy. If it does, this character cannot take Harvest actions but reduces all non-Magical Dmg dealt and suffered to W and may move freely over models and terrain during Jog actions, provided bases do not overlap at the end of the movement, until end of turn.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Horror",
-      "description": "If at least one friendly model was slain this turn this ability is free.",
+      "description": "If at least one friendly model was slain this turn resolve this attack with +2 Arcane Stat.",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "8\"",
@@ -91,11 +91,19 @@
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Target gains [Horrified: During the Discard Step, this character suffers 2 Wds], until end of turn.",
+          "text": "Target gains [Horrified: During the Discard Step, this character suffers 2 Wds], until this character is slain.",
           "validCards": [
             {
+              "colour": "Green",
+              "value": "2"
+            },
+            {
+              "colour": "Blue",
+              "value": "2"
+            },
+            {
               "colour": "Pink",
-              "value": "X"
+              "value": "2"
             }
           ]
         },

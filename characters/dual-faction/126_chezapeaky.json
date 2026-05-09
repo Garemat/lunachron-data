@@ -66,33 +66,14 @@
     },
     {
       "name": "Stocked to the Gills",
-      "description": "Resolve this action with +2 Arcane Stat if there is a Water Feature within 4\" of this model.",
-      "abilityType": "Arcane",
+      "description": "Target Pirate with the Reload [...] ability may immediately use the Reload [...] ability without spending energy.",
+      "abilityType": "Active",
       "energyCost": 1,
       "range": "4\"",
       "pulse": false,
       "oncePerTurn": true,
       "oncePerGame": false,
-      "arcaneOutcomes": [
-        {
-          "text": "Target Pirate or Troll gains X energy and suffers -X Arcane Stat until end of turn.",
-          "validCards": [
-            {
-              "colour": "Pink",
-              "value": "X"
-            }
-          ]
-        },
-        {
-          "text": "This character suffers 3 Wds.",
-          "validCards": [
-            {
-              "colour": "Catastrophe",
-              "value": "X"
-            }
-          ]
-        }
-      ]
+      "arcaneOutcomes": []
     },
     {
       "name": "Junk Toss",
@@ -156,7 +137,7 @@
           "text": "Target restores X Wds.",
           "validCards": [
             {
-              "colour": "Green",
+              "colour": "Blue",
               "value": "X"
             }
           ]

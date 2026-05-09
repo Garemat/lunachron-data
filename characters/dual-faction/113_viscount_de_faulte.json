@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Cavalry Mace",
-      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg to {0}. If this character deals Impact Melee Dmg, increase the Dmg dealt by +1.",
+      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg to W. If this character deals Impact Melee Dmg, increase the Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Erosion",
-      "description": "Enemies within 1\" suffer -1 Melee Stat when declaring an Arcane Action or -2 Melee Stat if targeting this character with a Melee Attack action.",
+      "description": "Enemies within 4\" suffer -1 Melee Stat when declaring a Melee Attack action or -2 Melee Stat if targeting this character with a Melee Attack action.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Intrusion",
-      "description": "After dice are rolled to determine who activates first, this model may spend 1 energy to reroll its die. Once per turn.",
+      "description": "After dice are rolled to determine who activates first, this model may spend 1 energy to reroll its die.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -90,33 +90,14 @@
     },
     {
       "name": "Fear",
-      "description": "",
-      "abilityType": "Arcane",
+      "description": "Target other character loses 1 energy then a friendly model within 4\" of this character gains that much energy",
+      "abilityType": "Active",
       "energyCost": 2,
       "range": "4\"",
       "pulse": false,
-      "oncePerTurn": false,
+      "oncePerTurn": true,
       "oncePerGame": false,
-      "arcaneOutcomes": [
-        {
-          "text": "Target other character loses X energy then a friendly character gains that much energy.",
-          "validCards": [
-            {
-              "colour": "Pink",
-              "value": "X"
-            }
-          ]
-        },
-        {
-          "text": "This character suffers 3 Wds.",
-          "validCards": [
-            {
-              "colour": "Catastrophe",
-              "value": "X"
-            }
-          ]
-        }
-      ]
+      "arcaneOutcomes": []
     }
   ]
 }

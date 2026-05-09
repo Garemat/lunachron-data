@@ -67,7 +67,7 @@
     },
     {
       "name": "Supernatural Strength",
-      "description": "Increase all Melee Dmg dealt by +2. All Melee Dmg caused by this character counts as Magical instead of the listed type.",
+      "description": "Increase all Melee Dmg dealt by +2. Melee Dmg caused by this character counts as Magical instead of the listed type.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -75,7 +75,7 @@
     },
     {
       "name": "Blood Drinker",
-      "description": "If an enemy is slain during a round of melee by this character, this character gains +3 energy.",
+      "description": "If an enemy is slain during a round of melee by this character, then this character gains +3 energy.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -83,7 +83,7 @@
     },
     {
       "name": "Replace Necklace",
-      "description": "This character gains +1 energy. Then it is Removed from Play and replaced with Anya Bartol. Anya Bartol gains energy and suffers Wds equal to those already on this character along with all Moonstones it's carrying and any stat modifications or abilities it has gained. Continue Striga Anya's activation with this turn.",
+      "description": "This character gains +1 energy. Then it is Removed from Play and replaced by Anya Bartol. Anya Bartol gains energy and suffers Wds equal to those already on this character along with all Moonstones it's carrying and any stat modifications or abilities it has gained. Continue Striga Anya's activation with Anya Bartol; she may not Jog if Striga Anya already did this turn.",
       "abilityType": "Active",
       "energyCost": 4,
       "range": "",

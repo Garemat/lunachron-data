@@ -74,7 +74,7 @@
     },
     {
       "name": "Gnarled Staff",
-      "description": "If this character deals Slicing or Piercing Melee Dmg, reduce the Dmg dealt to {Null}. If this character deals Impact Melee Dmg, increase the Dmg dealt by +1.",
+      "description": "If this character deals Slicing or Piercing Melee Dmg, reduce the Dmg dealt to W. If this character deals Impact Melee Dmg increase the Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

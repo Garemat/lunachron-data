@@ -65,8 +65,8 @@
       "arcaneOutcomes": []
     },
     {
-      "name": "My Boys!",
-      "description": "Reduce all Dmg this character would suffer by -1, for each other friendly Gnome within 4\", to a maximum of -2.",
+      "name": "My Boys",
+      "description": "Reduce all Dmg this character would suffer by -1 for each other friendly Gnome within 4\", to a maximum of -2.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Luck Charms",
-      "description": "Other friendly Gnomes within 4\" gain +1 Melee stat and +1 Arcane stat.",
+      "description": "Other friendly Gnomes within 4\" gain +1 Melee stat, +1 Arcane stat.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -93,10 +93,10 @@
     },
     {
       "name": "Mother's Wrath",
-      "description": "This action can only be taken if engaged by an enemy. Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds.",
+      "description": "Other friendly Gnomes within the pulse gain 1 energy. Enemy models within the pulse suffer 2 Wds.",
       "abilityType": "Active",
       "energyCost": 1,
-      "range": "4\"",
+      "range": "3\"",
       "pulse": true,
       "oncePerTurn": false,
       "oncePerGame": true,

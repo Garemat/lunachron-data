@@ -74,7 +74,7 @@
     },
     {
       "name": "My Hero",
-      "description": "Target Soldier gains 1 energy or target Noble gains 2 energy.",
+      "description": "Target Soldier gains 1 energy or, target Noble gains 2 energy.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "4\"",
