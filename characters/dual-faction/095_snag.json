@@ -57,7 +57,7 @@
   },
   "abilities": [
     {
-      "name": "Woodroot",
+      "name": "Woodfoot",
       "description": "This character may Jog over Wooded Patches.",
       "abilityType": "Passive",
       "oncePerTurn": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Splintered Branches",
-      "description": "If this character deals Impact or Piercing Melee Dmg, increase the Dmg dealt by +1.",
+      "description": "If this character deals Impact or Piercing Melee dmg, increase the dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,14 +74,14 @@
     },
     {
       "name": "Accursed",
-      "description": "When an enemy targets this character with an arcane action you may reveal a [G]X from your hand before any cards are played. After resolving the current action, the enemy model suffers X-1 Wds where X is the value of the revealed card.",
+      "description": "When an enemy targets this character with an arcane action you may reveal a Green:X from your resist hand before any cards are played. After resolving the current action, the enemy model suffers X-1 Wds where X is the value of the revealed card.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": []
     },
     {
-      "name": "Vengence",
+      "name": "Vengeance",
       "description": "If a friendly character is slain or reduced to 0 Wds, the first time this model uses an Arcane Ability this turn it doesn't need to spend any energy.",
       "abilityType": "Passive",
       "oncePerTurn": false,

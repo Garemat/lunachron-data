@@ -77,7 +77,7 @@
     },
     {
       "name": "Misdirection",
-      "description": "Move target enemy model 3\".",
+      "description": "Move target enemy model 3\"",
       "abilityType": "Active",
       "energyCost": 4,
       "range": "6\"",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Shoot Shortbow",
-      "description": "This ability cannot be used while this model is engaged.",
+      "description": "This ability cannot be used while this model is engaged",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "8\"",

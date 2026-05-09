@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Oceanic",
-      "description": "This model's Jog actions are limited to 2\" but may be freely moved over Water Features.",
+      "description": "This model's Jog actions are limited to 2\" but may be made freely over Water Features.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -88,16 +88,16 @@
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,
-      "range": "5\"",
+      "range": "",
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Place a 50mm Dual Water Feature within 5\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Water Features may be placed by this troupe; if a fourth is placed you must choose and remove a Water Feature you created earlier this game.",
+          "text": "Place a 50mm Diameter Water Feature within 3X\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Water Features may be placed by this troupe; if a fourth is placed you must choose and remove a Water Feature you created earlier this game.",
           "validCards": [
             {
-              "colour": "Green",
+              "colour": "Blue",
               "value": "X"
             }
           ]

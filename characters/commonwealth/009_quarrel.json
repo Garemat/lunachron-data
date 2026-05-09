@@ -66,7 +66,7 @@
     },
     {
       "name": "Dirk",
-      "description": "If the character deals Slicing Melee Dmg, increase the Dmg dealt by +1.",
+      "description": "If this character deals Slicing Melee Dmg, increase the Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -85,7 +85,7 @@
     },
     {
       "name": "Brothers in Arms",
-      "description": "Target other friendly Militia gains +1 Arcane stat and +2 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +2 Melee stat until end of turn. You may only target each character once per turn.",
+      "description": "Target other friendly Militia gains +1 Arcane stat and +2 Melee stat until end of turn. Then, the target may discard 1 energy to give this character +1 Arcane stat and +2 melee stat until end of turn. You may only target each character once per turn.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "4\"",

@@ -36,7 +36,7 @@
     },
     {
       "name": "Summoner's Delight",
-      "description": "If the character that summoned this model is Slain or Removed from Play then this character is immediately considered to be Slain.",
+      "description": "If the character that summoned this model is Slain or Removed from Play then this character is immediately considered to be Slain",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

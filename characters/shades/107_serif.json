@@ -74,7 +74,7 @@
     },
     {
       "name": "A Skele-tonne of Bolts",
-      "description": "When a friendly model is slain, this character may immediately use Ancient Crossbow without spending energy after the current action is resolved. This is done before models may take reaction steps. Once per turn.",
+      "description": "When a friendly model is slain, this character may immediately use Ancient Crossbow without spending energy after the current action is resolved. This is done before models may take reaction steps.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,

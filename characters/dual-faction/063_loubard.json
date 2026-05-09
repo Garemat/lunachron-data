@@ -65,7 +65,7 @@
       "arcaneOutcomes": []
     },
     {
-      "name": "Censer Chains",
+      "name": "Censer Chain",
       "description": "If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
       "abilityType": "Passive",
       "oncePerTurn": false,
@@ -92,7 +92,7 @@
       "arcaneOutcomes": []
     },
     {
-      "name": "Hail In",
+      "name": "Haul In",
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 1,

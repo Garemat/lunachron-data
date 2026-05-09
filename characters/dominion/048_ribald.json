@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Slow",
-      "description": "This model's Jog actions are limited to 2\".",
+      "description": "This model's Jog actions are limited to 2\"",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -91,7 +91,7 @@
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Target character suffers X×3 Impact Dmg then is moved X\" directly away.",
+          "text": "Target character suffers X3 Impact Dmg then is moved X\" directly away.",
           "validCards": [
             {
               "colour": "Green",

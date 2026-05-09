@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Valhalla!!",
-      "description": "When another friendly Norse or a friendly Young Jack within 6\" starts a Jog action, it may move +2\" provided the move ends with the character engaging an enemy. (Models with Slow are still limited to 2\" as normal.)",
+      "description": "When another friendly Norse or a friendly Young Jack within 6\" starts a Jog action, it may move +2\", provided the move ends with the character engaging an enemy. (Models with Slow are still limited to 2\" as normal).",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

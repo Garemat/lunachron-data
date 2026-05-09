@@ -74,7 +74,7 @@
     },
     {
       "name": "Robbery",
-      "description": "Target model with less Wds remaining than this character loses possession of one Moonstone and this character gains possession of that Moonstone.",
+      "description": "Target model with less Wds remaining than this character, loses possession of one Moonstone and this character gains possession of that Moonstone.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "1\"",

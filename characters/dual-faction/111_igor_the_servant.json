@@ -84,7 +84,7 @@
           ]
         },
         {
-          "text": "Target Human or Noble restores X Wds.",
+          "text": "Target Risen or Noble restores X Wds.",
           "validCards": [
             {
               "colour": "Blue",
@@ -114,7 +114,7 @@
     },
     {
       "name": "Summon the Forgotten King",
-      "description": "This action can only be taken if your chosen faction is Shades and there is no friendly Echo of the Forgotten King in play.",
+      "description": "This action can only be taken if your chosen faction is Shade and there is no friendly Echo of the Forgotten King in play.",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "",

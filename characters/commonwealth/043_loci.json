@@ -66,7 +66,7 @@
     },
     {
       "name": "Favour of the Old Gods",
-      "description": "When this character suffers Dmg you may flip the top card of the Arcane Deck and reduce the Dmg suffered by -X where X is the value on the flipped card. Catastrophe reduces the Dmg suffered by 0.",
+      "description": "When this character suffers Dmg you may flip the top card of the Arcane Deck and reduce the Dmg suffered by -X where X is the value on the flipped card. Catastrophe reduces the Dmg suffered by 0",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -85,13 +85,13 @@
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,
-      "range": "3\"",
+      "range": "",
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": [
         {
-          "text": "Place a 50mm Diameter Wooded Patch within 3\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Wooded Patches may be placed by this troupe; if a fourth is placed you must choose and remove a Wooded Patch you created earlier this game.",
+          "text": "Place a 50mm Diameter Wooded Patch within 3X\" and LoS on open ground. This remains in place until end of game. A maximum of 3 Wooded Patches may be placed by this troupe; if a fourth is placed you must choose and remove a Wooded Patch you created earlier this game.",
           "validCards": [
             {
               "colour": "Green",
@@ -115,7 +115,7 @@
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,
-      "range": "1\"",
+      "range": "8\"",
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -124,7 +124,7 @@
           "text": "Move target model X+1\".",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]

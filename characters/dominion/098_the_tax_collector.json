@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Inheritance Tax",
-      "description": "When a friendly Goblin character within 4\" and LoS is slain, you may place one Moonstone the character was in possession of in base contact with this model at depth value of 1. Once per game.",
+      "description": "When a friendly Goblin character within 4\" and LoS is slain, you may place one Moonstone the character was in possession of in base contact with this model at depth value of ‘1’.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": true,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Swift",
-      "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\". Once per turn.",
+      "description": "When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\".",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Rebate",
-      "description": "Target other character restores X+2 Wds or moves X+2\" directly towards this character, where X is the number of Moonstones the target is in possession of. (For characters without Moonstones X is 0.)",
+      "description": "Target other character restores X+2 Wds or moves X+2\" directly towards this character, where X is the number of Moonstones the target is in possession of. (For characters without Moonstones X is 0).",
       "abilityType": "Active",
       "energyCost": 3,
       "range": "8\"",
@@ -93,7 +93,7 @@
     },
     {
       "name": "Income Tax",
-      "description": "Target enemy character in possession of at least one Moonstone cannot take the Jog or Step Action or take Reaction Steps until end of turn. The enemy character may immediately spend X energy to cancel this effect, where X is the number of Moonstones they are in possession of. If they do, this character gains that much energy",
+      "description": "Target enemy character in possession of at least one Moonstone cannot take the Jog or Step Action or take Reaction Steps until end of turn. The enemy character may immediately spend X energy to cancel this effect, where X is the number of Moonstones they are in possession of. If they do, this character gains that much energy.",
       "abilityType": "Active",
       "energyCost": 0,
       "range": "8\"",

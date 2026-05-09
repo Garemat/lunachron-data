@@ -66,10 +66,10 @@
     },
     {
       "name": "Natural Order",
-      "description": "All models within the pulse suffer 1 Wd for each energy token they have over 5.",
+      "description": "All models within the pulse suffer 1 WD for each energy token they have over 3",
       "abilityType": "Active",
       "energyCost": 1,
-      "range": "4\" Pulse",
+      "range": "4\"",
       "pulse": true,
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -77,7 +77,7 @@
     },
     {
       "name": "Hunting Party",
-      "description": "Target enemy that has activated this turn must discard half its remaining energy rounded up. Then friendly Humans and Fauns gain +1 Arcane and +2 Melee Stat when targeting that enemy with actions until end of turn.",
+      "description": "Target enemy that has activated this turn must discard half of its remaining energy rounded up. Then friendly Humas and Fauns gain +1 Arcane and +2 Melee Stat when targetting that enemy with actions until end of turn.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "6\"",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Reload [Blunderbuss]",
-      "description": "The named ability can be used again. This ability cannot be used while this model is engaged.",
+      "description": "The named ability can be used again. This ability cannot be used while the model is engaged.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "",

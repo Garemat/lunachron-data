@@ -105,7 +105,7 @@
           "text": "This character's Melee Attacks deal +X Dmg until end of turn.",
           "validCards": [
             {
-              "colour": "Green",
+              "colour": "Pink",
               "value": "X"
             }
           ]

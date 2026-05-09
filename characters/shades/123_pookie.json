@@ -44,14 +44,14 @@
     },
     {
       "name": "Feeble",
-      "description": "Reduce all Melee Dmg this character deals by -2. Harvest actions cost this model +1 energy.",
+      "description": "Reduce all Melee Dmg this character deals by -2. Harvest actions cost this model +1 energy",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": []
     },
     {
-      "name": "I Want My Nanny!",
+      "name": "I Want My Nanny!!",
       "description": "When an enemy character declares this model as a target of an action, you may interrupt the action to move this model 2\" directly towards a friendly Nanny. If you do, the enemy must complete the action if possible and may not choose a new target. Once per turn.",
       "abilityType": "Passive",
       "oncePerTurn": true,

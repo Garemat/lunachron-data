@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Lance",
-      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg dealt to {Null}. If this character deals Piercing Melee Dmg, increase the Dmg dealt by +1.",
+      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg dealt to W. If this character deals Piercing Dmg, increase the Dmg dealt by +1.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Digger",
-      "description": "When this model takes a Harvest action, flip an Arcane Card and reduce the Depth Value by X, where X is the value of the card. Catastrophe: All models within a 3\" pulse suffer 2 Magical Dmg.",
+      "description": "When this model takes a Harvest action, flip an Arcane Card and reduce the Depth Value by X, where X is the value of the card.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

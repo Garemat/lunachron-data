@@ -66,7 +66,7 @@
     },
     {
       "name": "Sceptre of Almighty Power",
-      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg dealt to {Null}. If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
+      "description": "If this character deals Slicing Melee dmg, reduce the Dmg dealt to W. If this character deals Impact Melee dmg, increase the Dmg dealt by +2.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -82,7 +82,7 @@
     },
     {
       "name": "Rule the Roost",
-      "description": "Target Goblin suffers 2 Wds, gains 2 energy and activates immediately (this character's activation ends). If the target has already activated, then this is a bonus activation; otherwise this counts as the target's activation for the turn.",
+      "description": "Target Goblin suffer 2 Wds, gains 2 energy and activates immediately after this character's activation ends. If the target has already activated, then this is a bonus activation, otherwise this counts as the target's activation for the turn.",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "8\"",
@@ -93,7 +93,7 @@
     },
     {
       "name": "Gimme!",
-      "description": "Gain possession of one Moonstone carried by target friendly Goblin.",
+      "description": "Gain possession of one Moonstone carried by the target friendly Goblin.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "2\"",

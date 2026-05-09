@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Asleep on the Job",
-      "description": "This model may not be chosen to be the player's first activation unless it is the only model which can activate. When this character activates it gets +1 Melee Stat and reduces its Evade Stat by -3 until end of turn.",
+      "description": "This model may not be chosen to be the player's first activation unless it is the only model which can activate. When this character activates it gets +1 Melee Stat and reduces it's Evade Stat by -1 until end of turn.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Goblin City Guard",
-      "description": "If a Goblin in possession of a Moonstone within 4\" and LoS suffers Dmg, you may use this character to suffer that Dmg instead. Once per turn.",
+      "description": "If a Goblin in possession of a Moonstone within 4\" and LoS suffers Dmg, you may have this character suffer all that Dmg instead.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -98,7 +98,7 @@
     },
     {
       "name": "Stand to Attention!",
-      "description": "Target other friendly Goblin gains 1 energy. If the target is a Soldier it may also move 2\".",
+      "description": "Target other friendly Goblin gains +1 energy. If the target is a Soldier it may also move 2\".",
       "abilityType": "Active",
       "energyCost": 2,
       "range": "4\"",

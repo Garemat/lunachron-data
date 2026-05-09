@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Pirate Mascot",
-      "description": "Whenever another friendly Pirate within 8\" makes a Melee Attack they may gain +2 Melee Stat for the action, or if they are targeted by an Arcane Ability, they may gain -1 Evade Stat for the action.",
+      "description": "When another friendly Pirate within 8\" makes a Melee Attack they may gain +2 Melee Stat for the action, or if they are targeted by an Arcane Ability, they may gain -1 Evade Stat for the action.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -104,7 +104,7 @@
     },
     {
       "name": "Black Powder Bomb",
-      "description": "This attack is not modified by Evade Stat.",
+      "description": "This attack is not modified by Evade Stat",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "4\"",
@@ -116,7 +116,7 @@
           "text": "Target suffers X+1 Magical Dmg. Other models within 2\" of the target suffer X Magical Dmg.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Green",
               "value": "X"
             }
           ]

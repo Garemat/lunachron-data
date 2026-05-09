@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Summon the Choir",
-      "description": "When this model is deployed or enters play, you may place 4 new friendly Musician Psychopomps in base contact. If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play.",
+      "description": "When this model is deployed or enters play, you may place a new friendly Musician Psychopomp in base contact. If deployed, this must be in the deployment zone as normal. This cannot bring a character into play if it is already in play",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "Conductor",
-      "description": "Target friendly Psychopomp immediately takes any action available to it, irrespective of cost, excluding Jog. Increase the Psychopomp's Melee & Arcane Stat by +1 for each friendly Psychopomp in play for the duration of the action.",
+      "description": "Target friendly Psychopomp immediately takes any action available to them irrespective of energy cost, excluding Jog. Increase the Psychopomp's Melee & Arcane Stat by +1 for each friendly Psychopomp in play for the duration of the action.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "6\"",
@@ -76,7 +76,7 @@
       "arcaneOutcomes": []
     },
     {
-      "name": "Summon an Encore",
+      "name": "Summon an Encore!",
       "description": "This action cannot bring a character into play if it is already in play. Place a friendly Psychopomp, which was slain earlier this turn, in base contact with this model.",
       "abilityType": "Active",
       "energyCost": 1,
@@ -88,41 +88,14 @@
     },
     {
       "name": "Psychopomp Parade",
-      "description": "",
-      "abilityType": "Arcane",
-      "energyCost": 4,
+      "description": "Flip an Arcane Card then move all friendly Psychopomps within the pulse up to X\", where X is the value of the card. Catastrophe : The player to the left may move this model 2\".",
+      "abilityType": "Active",
+      "energyCost": 1,
       "range": "6\"",
       "pulse": true,
       "oncePerTurn": true,
       "oncePerGame": false,
-      "arcaneOutcomes": [
-        {
-          "text": "Move all friendly Psychopomps within the pulse up to X\".",
-          "validCards": [
-            {
-              "colour": "Green",
-              "value": "X"
-            },
-            {
-              "colour": "Blue",
-              "value": "X"
-            },
-            {
-              "colour": "Pink",
-              "value": "X"
-            }
-          ]
-        },
-        {
-          "text": "The player to your left may move this model 2\".",
-          "validCards": [
-            {
-              "colour": "Catastrophe",
-              "value": "X"
-            }
-          ]
-        }
-      ]
+      "arcaneOutcomes": []
     }
   ]
 }

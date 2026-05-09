@@ -65,8 +65,8 @@
       "arcaneOutcomes": []
     },
     {
-      "name": "The Big They Are...",
-      "description": "During a round of melee with an enemy that has Evade Stat of +1 or higher, this character ignores Weakling, deals +X Melee Dmg and reduces all Melee Dmg suffered by -X, where X is the Evade Stat of the enemy.",
+      "name": "The Bigger They Are...",
+      "description": "During a round of melee with an enemy that has Evade Stat +1 or higher, this character ignores Weakling, deals +X Melee Dmg and reduces all Melee Dmg suffered by -X, where X is the Evade Stat of the enemy.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Sleepy Time",
-      "description": "This attack is not inhibited by Evade Stat.",
+      "description": "This attack is not modified by Evade Stat.",
       "abilityType": "Arcane",
       "energyCost": 3,
       "range": "6\"",

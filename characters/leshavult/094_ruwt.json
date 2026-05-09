@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Woodspirit",
-      "description": "This character may Jog over Wooded Patches. Friendly Treefolk within 12\" ignore Wooded Patches and other friendly Treefolk for determining cover when using Arcane Abilities.",
+      "description": "This character may jog over Wooded Patches. Friendly Treefold within 12\" ignore Wooded Patches and other friendly Treefolk for determining cover when using Arcane Abilities.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -66,7 +66,7 @@
     },
     {
       "name": "We are Ruwt",
-      "description": "Each time this character would be slain it may instead drop any Moonstones as if it were slain and restore its health rounding up if it can be placed within a Wooded Patch created earlier this game. Doing this removes the Wooded Patch.",
+      "description": "Each time this character would be slain, it may instead drop any Moonstones as if it were slain and restore half it's health rounding up if it can be placed within a Wooded Patch created earlier this game within 12\". Then remove the Wooded Patch.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "New Growth",
-      "description": "When this character uses an Arcane Ability it may suffer 3 Wds instead of paying the energy cost. If this reduces it to 0 Wds the Arcane Ability is cancelled. Once per turn.",
+      "description": "When this character uses an Arcane Ability it may suffer 3 Wds instead of paying the energy cost. If this reduces it to 0 Wds the Arcane Ability is cancelled.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -85,7 +85,7 @@
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,
-      "range": "3\"",
+      "range": "",
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": false,

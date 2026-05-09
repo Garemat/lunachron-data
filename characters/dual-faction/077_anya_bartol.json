@@ -59,7 +59,7 @@
   "abilities": [
     {
       "name": "Weakling",
-      "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy.",
+      "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -83,7 +83,7 @@
     },
     {
       "name": "Remove Necklace",
-      "description": "When played, this character gains +4 energy. Then it is Removed from Play and replaced with Striga Anya. Striga Anya gains energy and suffers Wds equal to those already on this character along with all Moonstones and any abilities it has gained. Continue Striga Anya's activation with the same turn.",
+      "description": "This character gains +4 energy. Then it is Removed from Play and replaced by Striga Anya. Striga Anya gains energy and suffers Wds equal to those already on this character along with all Moonstones this character is carrying and any stat modifications or abilities it has gained. Continue Anya Bartol's activation with Striga Anya; it may not Jog if Anya Bartol already did this turn.",
       "abilityType": "Active",
       "energyCost": 4,
       "range": "",

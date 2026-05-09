@@ -28,7 +28,7 @@
   "abilities": [
     {
       "name": "Thrall",
-      "description": "This character can only enter play when summoned. It does not activate and can never gain energy. Instead, while the character that summoned it is active, this character can take actions, including Jog, by discarding the required energy on the character that summoned it. Reaction Steps and Go For It's can be taken in the same way.",
+      "description": "This character can only enter play when summoned. It does not activate and can never gain energy. Instead, while the character that summoned it is active, this character can take actions, including Jog, by discarding the required energy on the character that summoned it. Reaction Steps and Go For It's can be taken in the same way",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -44,7 +44,7 @@
     },
     {
       "name": "Feeble",
-      "description": "Reduce all Melee Dmg this character deals by -2. Harvest actions cost this model +2 energy.",
+      "description": "Reduce all Melee Dmg this character deals by -2. Harvest actions cost this model +1 energy.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

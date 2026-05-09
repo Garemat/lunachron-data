@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Undying",
-      "description": "Each time this character would be slain, instead restore all Wds. Then, if this character was in possession of any Moonstones, it drops one of them as if it were slain.",
+      "description": "Each time this character would be slain, instead restore all Wds. Then, if this character was in possession of any Moonstones, it drops one of them as if it were slain",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -97,7 +97,7 @@
           "text": "Target suffers X Magical Dmg and gains Slow until end of turn.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]

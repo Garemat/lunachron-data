@@ -57,7 +57,7 @@
   },
   "abilities": [
     {
-      "name": "Woodroot",
+      "name": "Woodfoot",
       "description": "This character may Jog over Wooded Patches.",
       "abilityType": "Passive",
       "oncePerTurn": false,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Forest",
-      "description": "After this character suffers Dmg, it may restore 1 Wd for each Wooded Patch within 4\". Once per turn.",
+      "description": "After this character suffers Dmg, it may restore 1 Wd for each Wooded Patch within 4\".",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -110,7 +110,7 @@
           "text": "Move target enemy X+2\" directly towards any friendly Treefolk. Then the target suffers 1 Wd for each Wooded Patch within 4\" of it.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Green",
               "value": "X"
             }
           ]

@@ -90,7 +90,7 @@
     },
     {
       "name": "Giant Whisperer",
-      "description": "Move target Giant 1\".",
+      "description": "Move target Giant 1\"",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "8\"",

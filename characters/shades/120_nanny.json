@@ -135,7 +135,7 @@
           "text": "Place a new Urchin in base contact with this character.",
           "validCards": [
             {
-              "colour": "{Pink}",
+              "colour": "Pink",
               "value": "1"
             }
           ]

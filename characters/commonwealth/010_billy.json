@@ -74,44 +74,17 @@
     },
     {
       "name": "Ramming Speed",
-      "description": "",
-      "abilityType": "Arcane",
+      "description": "Move this model 6\" directly towards target enemy model. If base contact is made with the target, flip an arcane card. The target suffers X+1 Impact Dmg then is moved X\" directly away, where X is the value of the flipped card. Catastrophe: The target model suffers no damage and may move up to 3\".",
+      "abilityType": "Active",
       "energyCost": 3,
       "range": "6\"",
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": false,
-      "arcaneOutcomes": [
-        {
-          "text": "Target suffers X+1 Impact Dmg then is moved 1\" directly away.",
-          "validCards": [
-            {
-              "colour": "Green",
-              "value": "X"
-            },
-            {
-              "colour": "Blue",
-              "value": "X"
-            },
-            {
-              "colour": "Pink",
-              "value": "X"
-            }
-          ]
-        },
-        {
-          "text": "Target suffers no damage and may move up to 3\".",
-          "validCards": [
-            {
-              "colour": "Catastrophe",
-              "value": "X"
-            }
-          ]
-        }
-      ]
+      "arcaneOutcomes": []
     },
     {
-      "name": "High-ho",
+      "name": "High-ho Silver",
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 2,

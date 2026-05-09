@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Pick",
-      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg dealt to {Null}. If this character deals Impact Melee Dmg, increase the Dmg dealt by 2.",
+      "description": "If this character deals Slicing Melee Dmg, reduce the Dmg dealt to W. If this character deals Impact Melee Dmg, increase the Dmg dealt by +2.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

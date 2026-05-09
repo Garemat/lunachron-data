@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Weakling",
-      "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy.",
+      "description": "Reduce all Melee Dmg this character deals by -1. Harvest actions cost this model +1 energy",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,
@@ -89,7 +89,7 @@
           "text": "Target suffers X+1 Magical Dmg.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Blue",
               "value": "X"
             }
           ]
@@ -119,7 +119,7 @@
           "text": "Target enemy loses X energy.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Green",
               "value": "X"
             }
           ]
@@ -134,10 +134,10 @@
           ]
         },
         {
-          "text": "Move target enemy up to 2×X\". Then you may have the target take a Melee Attack action controlled by you. They count as friendly during the Melee Attack action.",
+          "text": "Move target enemy up to 2X\". Then you may have the target take a Melee Attack action controlled by you. They count as friendly during the Melee Attack action.",
           "validCards": [
             {
-              "colour": "Green",
+              "colour": "Pink",
               "value": "X"
             }
           ]

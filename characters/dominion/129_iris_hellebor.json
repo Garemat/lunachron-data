@@ -82,7 +82,7 @@
     },
     {
       "name": "Perfect Form",
-      "description": "After a friendly Faerie within 6\" reveals a Melee Card, it may discard 1 energy then swap the revealed card with a Melee Card in hand. Once per game.",
+      "description": "After a friendly Faerie within 6\" reveals a Melee Card, it may discard 1 energy then swap the revealed card with a Melee Card in hand.",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": true,

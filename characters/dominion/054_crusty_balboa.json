@@ -98,15 +98,15 @@
           "validCards": [
             {
               "colour": "Green",
-              "value": "X"
+              "value": "3"
             },
             {
               "colour": "Blue",
-              "value": "X"
+              "value": "3"
             },
             {
               "colour": "Pink",
-              "value": "X"
+              "value": "3"
             }
           ]
         },
@@ -135,12 +135,12 @@
           "text": "Target suffers 2 Impact Dmg. If this character has already used the Pinch ability this turn increase this Dmg by +1.",
           "validCards": [
             {
-              "colour": "Green",
-              "value": "X"
+              "colour": "Blue",
+              "value": "2"
             },
             {
-              "colour": "Blue",
-              "value": "X"
+              "colour": "Pink",
+              "value": "2"
             }
           ]
         },

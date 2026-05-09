@@ -58,7 +58,7 @@
   "abilities": [
     {
       "name": "Trickster",
-      "description": "When this model successfully bluffs, after resolving the effect you may reveal the bluff and gain +3 energy. Once per turn.",
+      "description": "When this model successfully bluffs, after resolving the effect you may reveal the bluff and gain +3 energy.",
       "abilityType": "Passive",
       "oncePerTurn": true,
       "oncePerGame": false,
@@ -77,7 +77,7 @@
       "description": "",
       "abilityType": "Arcane",
       "energyCost": 0,
-      "range": "8\"",
+      "range": "",
       "pulse": false,
       "oncePerTurn": true,
       "oncePerGame": false,

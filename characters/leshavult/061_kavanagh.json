@@ -69,7 +69,7 @@
     },
     {
       "name": "Black Comedy",
-      "description": "Target other friendly character suffers 2 Wds and gains +1 energy.",
+      "description": "Target other friendly character suffers 2 Wds and gains +1 energy",
       "abilityType": "Active",
       "energyCost": 0,
       "range": "6\"",
@@ -80,7 +80,7 @@
     },
     {
       "name": "Juggling Fate",
-      "description": "Gain +2 energy. Draw the top 3 cards of the Arcane Deck, look then place them face down: one on the top of the deck, one on the bottom of the deck and one besides this character card. At any point you can add the removed card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, if this character is slain, shuffle the card back into the Arcane Deck.",
+      "description": "Gain +2 energy. Draw the top 3 cards of the Arcane Deck, look then place them face down: one on the top of the deck, one on the bottom of the deck and one besides this character card. At any point you can add the removed card to your Arcane or Arcane Resist Hand. If you do then at the end of the action, or if this character is slain, shuffle the card back into the Arcane Deck.",
       "abilityType": "Active",
       "energyCost": 4,
       "range": "",
@@ -104,15 +104,15 @@
           "validCards": [
             {
               "colour": "Green",
-              "value": "X"
+              "value": "3"
             },
             {
               "colour": "Blue",
-              "value": "X"
+              "value": "3"
             },
             {
               "colour": "Pink",
-              "value": "X"
+              "value": "3"
             }
           ]
         },

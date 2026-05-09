@@ -66,7 +66,7 @@
     },
     {
       "name": "Guerilla Tactician",
-      "description": "Other friendly Fauns within 6\" gain +1 Melee Stat and Swift: When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\". Once per turn.",
+      "description": "Other friendly Fauns within 6\" gain +1 Melee Stat and [Swift: When making a Reaction Step while engaged by an enemy, this model may move 2\" instead of the usual 1\". Once per turn.]",
       "abilityType": "Passive",
       "oncePerTurn": false,
       "oncePerGame": false,

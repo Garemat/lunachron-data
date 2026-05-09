@@ -58,9 +58,9 @@
   "abilities": [
     {
       "name": "Worlds Old & New",
-      "description": "If your faction is Shades when this model is deployed place a 50mm Water Feature within 6\" and LoS on open ground. If your faction is Dominion, when a friendly Pirate within 6\" Jogs it may ignore the effects of Slow (and Slow Carry). Once per turn.",
+      "description": "If you faction is Shades, when this model is deployed, place a 50mm Water Feature within 6\" and LoS on open ground. If your faction is Dominion, when a friendly Pirate within 6\" Jogs it may ignore the effects of Slow (and Slow Carry). Once per turn.",
       "abilityType": "Passive",
-      "oncePerTurn": true,
+      "oncePerTurn": false,
       "oncePerGame": false,
       "arcaneOutcomes": []
     },
@@ -74,13 +74,13 @@
     },
     {
       "name": "Old Pirate Curse",
-      "description": "Target without [The Black Spot]: Enemy Pirates gain +1 Arcane Stat when targeting this character with an action. This character suffers 1 Wd during the Discard Step, until end of game. Then other enemies with [The Black Spot] lose it.",
+      "description": "Target without The Black Spot gains [The Black Spot: Enemy Pirates gain +1 Arcane Stat when targeting this character with an action. This character suffers 1 Wd during the Discard Step], until end of game. Then other enemies with The Black Spot lost it.",
       "abilityType": "Active",
       "energyCost": 1,
       "range": "8\"",
       "pulse": false,
-      "oncePerTurn": false,
-      "oncePerGame": true,
+      "oncePerTurn": true,
+      "oncePerGame": false,
       "arcaneOutcomes": []
     },
     {
@@ -103,12 +103,13 @@
       "pulse": false,
       "oncePerTurn": false,
       "oncePerGame": true,
+      "reloadable": true,
       "arcaneOutcomes": [
         {
           "text": "Target suffers X+1 Impact Dmg.",
           "validCards": [
             {
-              "colour": "Pink",
+              "colour": "Green",
               "value": "X"
             }
           ]
