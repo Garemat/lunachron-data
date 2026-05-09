@@ -8,6 +8,11 @@ on:
         type: string
         required: false
         default: ''
+      skip_pr_validation:
+        description: "Skip PR template validation (Dependabot only)"
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   validate:
@@ -34,16 +39,11 @@ jobs:
         run: npx prettier --check "**/*.json"
 
       - name: Validate PR Template
-        if: inputs.pr_body != ''
+        if: '!inputs.skip_pr_validation'
         env:
           PR_BODY: ${{ inputs.pr_body }}
         run: |
           echo "Validating PR description..."
-
-          if ! echo "$PR_BODY" | grep -qEi "(- \[x\] (🐛 Bug fix|✨ New feature|💥 Breaking change|🧹 Chore))"; then
-            echo "::error::Validation Failed: Please select at least one 'Type of Change' in your PR description."
-            exit 1
-          fi
 
           if echo "$PR_BODY" | sed -n '/## Checklist/,$p' | grep -q "\[ \]"; then
             echo "::error::Validation Failed: Please ensure all items in the 'Checklist' are completed and checked."

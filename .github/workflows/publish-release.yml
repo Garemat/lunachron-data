@@ -1,14 +1,13 @@
 name: Publish Data Release
 
 on:
-  pull_request:
+  push:
     branches: [main]
-    types: [closed]
   workflow_dispatch:
 
 jobs:
   release:
-    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
+    if: "github.event_name == 'workflow_dispatch' || !contains(github.event.head_commit.message, '[skip ci]')"
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,52 +17,63 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Determine Version Bump
-        id: bump_type
-        env:
-          BODY: ${{ github.event.pull_request.body }}
+      - name: Install git-cliff
+        uses: kenji-miyake/setup-git-cliff@v2
+
+      - name: Compute next version
+        id: version
         run: |
-          if [[ "$BODY" == *"[x] 💥 Breaking change"* ]]; then
-            echo "type=major" >> $GITHUB_OUTPUT
-          elif [[ "$BODY" == *"[x] ✨ New feature"* ]]; then
-            echo "type=minor" >> $GITHUB_OUTPUT
-          elif [[ "$BODY" == *"[x] 🐛 Bug fix"* ]]; then
-            echo "type=patch" >> $GITHUB_OUTPUT
-          else
-            # workflow_dispatch or chore-only — default to patch
-            echo "type=none" >> $GITHUB_OUTPUT
+          LATEST=$(git tag --sort=-v:refname | grep '^v' | head -1)
+          if [ -z "$LATEST" ]; then LATEST="v0.0.0"; fi
+
+          BUMPED=$(git cliff --bumped-version 2>/dev/null || echo "")
+
+          version_gte() { [ "$(printf '%s\n' "$1" "$2" | sort -V | tail -1)" = "$1" ]; }
+
+          if [ -z "$BUMPED" ] || ! version_gte "$BUMPED" "$LATEST" || [ "$BUMPED" = "$LATEST" ]; then
+            LATEST_VER="${LATEST#v}"
+            IFS='.' read -r major minor patch <<< "$LATEST_VER"
+            BUMPED="v${major}.${minor}.$((patch+1))"
           fi
 
-      - name: Create Tag
-        if: steps.bump_type.outputs.type != 'none'
-        id: tag_version
-        uses: anothrNick/github-tag-action@1.64.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEFAULT_BUMP: ${{ steps.bump_type.outputs.type }}
-          WITH_V: true
+          while git tag | grep -qx "$BUMPED"; do
+            VER="${BUMPED#v}"
+            IFS='.' read -r major minor patch <<< "$VER"
+            BUMPED="v${major}.${minor}.$((patch+1))"
+          done
+
+          echo "new_tag=$BUMPED" >> $GITHUB_OUTPUT
+
+      - name: Extract release notes
+        id: release_notes
+        run: |
+          NOTES=$(git cliff --tag ${{ steps.version.outputs.new_tag }} --unreleased --strip header)
+          echo "notes<<EOF" >> $GITHUB_OUTPUT
+          echo "$NOTES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Tag release
+        run: |
+          git tag ${{ steps.version.outputs.new_tag }}
+          git push origin ${{ steps.version.outputs.new_tag }}
 
       - name: Aggregate JSON files
-        if: steps.bump_type.outputs.type != 'none'
         env:
-          COMPENDIUM_VERSION: ${{ steps.tag_version.outputs.new_tag }}
+          COMPENDIUM_VERSION: ${{ steps.version.outputs.new_tag }}
         run: python3 scripts/aggregate.py
 
       - name: Lint produced JSON files
-        if: steps.bump_type.outputs.type != 'none'
         run: python3 scripts/lint_data.py
 
       - name: Zip character images
-        if: steps.bump_type.outputs.type != 'none'
         run: zip -j build/character_images.zip character_images/*
 
       - name: Create GitHub Release
-        if: steps.bump_type.outputs.type != 'none'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.tag_version.outputs.new_tag }}
-          name: "Data release ${{ steps.tag_version.outputs.new_tag }}"
-          generate_release_notes: true
+          tag_name: ${{ steps.version.outputs.new_tag }}
+          name: "Data release ${{ steps.version.outputs.new_tag }}"
+          body: ${{ steps.release_notes.outputs.notes }}
           files: |
             build/compendium.json
             build/character_images.zip
