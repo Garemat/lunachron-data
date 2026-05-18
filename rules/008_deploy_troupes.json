@@ -1,0 +1,8 @@
+{
+  "id": "deploy_troupes",
+  "title": "Deploy Troupes",
+  "category": "Game Setup",
+  "keywords": ["deployment", "initiative", "early bird"],
+  "content": "Roll a 6-sided die to determine deployment order.\n\n**2-Player Game:** High roll chooses **Early Bird** or **Initiative**. Early Bird deploys 1st model within 10” of their edge. Initiative player deploys opposite. Alternate until finished.\n\n**3-4 Player Game:** Players choose unclaimed edges in descending order of rolls and place one model at a time. No player is considered to have Initiative.",
+  "searchable": true
+}

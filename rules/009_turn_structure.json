@@ -1,0 +1,8 @@
+{
+  "id": "turn_structure",
+  "title": "Turn Structure",
+  "category": "Gameplay",
+  "keywords": ["replenish", "activation", "discard"],
+  "content": "1. **Replenish Step** – Place one blue energy token on each character for each blue dot remaining on their health bar.\n2. **Activation Step** – Players alternate choosing one character to activate. A character may take as many actions as energy allows.\n3. **Discard Step** – Remove any unspent energy and begin a new turn.",
+  "searchable": true
+}

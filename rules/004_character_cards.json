@@ -1,0 +1,8 @@
+{
+  "id": "character_cards",
+  "title": "Character Cards",
+  "category": "Characters",
+  "keywords": ["stats", "melee", "arcane", "evade", "energy", "abilities"],
+  "content": "Name – The character’s name and optional version number.\nKeywords – Describes race and attributes. May be referenced by rules or abilities.\nMelee Stat – Number of **Melee Cards** drawn when fighting in a **Round of Melee**.\nMelee Range – Maximum range an enemy must be within to declare it a target of a **Melee Attack**.\nPassive Abilities – ‘Always-on’ effects applying bonuses or penalties.\nArcane Abilities – Special abilities taken as actions by discarding energy. They use **Arcane Cards** against a resisting player.\nArcane Stat – Number of **Arcane Cards** drawn when performing an **Arcane Ability**.\nEvade Stat – Modifies the number of Arcane Cards an enemy draws when targeting this model.\nFaction Symbol – Indicates which faction can take this character (Commonwealth, Dominion, Leshavult, or Shades).\nActive Abilities – Simple abilities taken as actions by expending energy.\nBase Size – The diameter of the base the character must be placed on.\nEnergy – Main resource used for actions. Replenished at the start of each turn based on blue dots remaining on the health bar.\nHealth Boxes – Represent damage a character can suffer before being **Slain**. Fill boxes from right to left as wounds are suffered.",
+  "searchable": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "faq_combat_resolution",
+  "title": "Melee Order of Resolution",
+  "category": "FAQ: Combat",
+  "keywords": ["melee", "resolution", "order"],
+  "content": "1. Attacker pays energy.\n2. Both players draw cards.\n3. Simultaneously reveal cards.\n4. Declare damage types & Signature upgrades.\n5. Mark damage.\n6. Follow-up attacks.\n7. End Step effects.",
+  "searchable": true
+}

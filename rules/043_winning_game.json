@@ -1,0 +1,8 @@
+{
+  "id": "winning_game",
+  "title": "Winning the Game",
+  "category": "Gameplay",
+  "keywords": ["victory", "end", "sudden death"],
+  "content": "The player with the most Moonstones at the end of Turn 4 wins. If tied, enter **Sudden Death** turn; the first player to hold more stones than all others wins immediately.",
+  "searchable": true
+}

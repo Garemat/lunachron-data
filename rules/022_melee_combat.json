@@ -1,0 +1,8 @@
+{
+  "id": "melee_combat",
+  "title": "Melee Combat",
+  "category": "Melee",
+  "keywords": ["round", "simultaneous", "attacker", "defender"],
+  "content": "Attacker pays 1 energy. Attacker draws **Melee Stat + 2**. Defender draws **Melee Stat**. Both choose 1 card and reveal simultaneously. Read damage from the 'Deal' column against the opponent's card name.\n\n**Critical Hits** – Play duplicates of your chosen card to multiply damage by 2x or 3x.",
+  "searchable": true
+}

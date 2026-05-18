@@ -1,0 +1,8 @@
+{
+  "id": "arcane_abilities",
+  "title": "Arcane Abilities",
+  "category": "Arcane",
+  "keywords": ["bluff", "resist", "evade", "cover"],
+  "content": "Active player draws cards equal to **Arcane Stat** (modified by target's **Evade** and **Cover**). Resisting player draws 6 cards.\n\n**Bluffing** – Active player plays one card face down and declares its value (can lie). Resisting player calls 'OK' or 'Bluff'.\n• **OK:** Effect happens if requirements met. 'X' equals declared value.\n• **Bluff:** Reveal card. If lying, resistor replaces it from their hand. If truthful, effect happens and active player may play the ability again for free using remaining hand cards.",
+  "searchable": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_place_vs_move",
+  "title": "How is a 'place' effect different from a 'move' effect?",
+  "category": "FAQ: General",
+  "keywords": ["place", "move"],
+  "content": "**Move** effects traverse space and are stopped by terrain/engagements. **Place** effects relocate the model instantly without traversing the intervening space.",
+  "searchable": true
+}

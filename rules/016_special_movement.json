@@ -1,0 +1,8 @@
+{
+  "id": "special_movement",
+  "title": "Special Movement & Terrain",
+  "category": "Movement & Terrain",
+  "keywords": ["flight", "ladders", "elevated", "stairs"],
+  "content": "**Faeries can fly!** – Jogs ignore Water, Woods, and Obstacles. No falling damage.\n**Ladders** – Treated as Obstacles but Traverse distance restriction is lifted.\n**Elevated Positions** – If higher than target, gain +1 Arcane Stat. Range increases by +1” per 2” height difference (max +6”).",
+  "searchable": true
+}

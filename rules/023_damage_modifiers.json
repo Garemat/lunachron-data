@@ -1,0 +1,8 @@
+{
+  "id": "damage_modifiers",
+  "title": "Damage & Types",
+  "category": "Melee",
+  "keywords": ["impact", "slicing", "piercing", "W"],
+  "content": "Melee cards offer choices of types: **Impact**, **Slicing**, or **Piercing**. Modifiers from passive abilities apply simultaneously. \n\n{Null}**Symbol (Null):** No damage can be caused, regardless of modifiers.\n**0 Result:** No initial damage, but can be modified by abilities.",
+  "searchable": true
+}

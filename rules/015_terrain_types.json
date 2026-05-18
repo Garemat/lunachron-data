@@ -1,0 +1,8 @@
+{
+  "id": "terrain_types",
+  "title": "Terrain Types",
+  "category": "Movement & Terrain",
+  "keywords": ["ground", "obstacle", "barrier", "water", "woods"],
+  "content": "Open Ground – No effect.\nObstacles – Box/low wall. Traverse required. Stops movement if pushed into.\nBarriers – High wall/building. Blocks LoS and movement. Provides cover.\nWater Feature – Streams/ponds. Jog prohibited, Step allowed.\nWooded Patch – Provides cover. LoS into/out allowed, but not through.",
+  "searchable": true
+}

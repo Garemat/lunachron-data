@@ -1,0 +1,8 @@
+{
+  "id": "faq_combat_step_engagement",
+  "title": "Can a model use a Step to get out of engagement?",
+  "category": "FAQ: Combat",
+  "keywords": ["step", "engage", "disengage"],
+  "content": "**Yes.** A Step action allows a model to move 1\" in any direction, which can be used to move out of an enemy's Melee Range.",
+  "searchable": true
+}

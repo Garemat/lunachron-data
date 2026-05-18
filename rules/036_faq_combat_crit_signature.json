@@ -1,0 +1,8 @@
+{
+  "id": "faq_combat_crit_signature",
+  "title": "Critical Hits and Signature Moves",
+  "category": "FAQ: Combat",
+  "keywords": ["critical", "signature", "upgrade"],
+  "content": "If you play a **Critical Hit** and upgrade to a **Signature Move**, all cards in that critical hit become copies of the Signature Move, multiplying its damage and effects.",
+  "searchable": true
+}

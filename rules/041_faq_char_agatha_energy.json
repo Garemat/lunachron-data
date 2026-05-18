@@ -1,0 +1,8 @@
+{
+  "id": "faq_char_agatha_energy",
+  "title": "AGATHA - Drink your Fill",
+  "category": "FAQ: Character Specific",
+  "keywords": ["agatha", "energy"],
+  "content": "Agatha 'restores' energy, meaning characters cannot exceed their starting energy maximum (blue dots).",
+  "searchable": true
+}

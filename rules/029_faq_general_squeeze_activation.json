@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_squeeze_activation",
+  "title": "Can a model be 'squeezed' through a gap outside its activation?",
+  "category": "FAQ: General",
+  "keywords": ["squeeze", "gap", "activation"],
+  "content": "**No.** Squeezing is an exception only permitted during a character's own activation.",
+  "searchable": true
+}

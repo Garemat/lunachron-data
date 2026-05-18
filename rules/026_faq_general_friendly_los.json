@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_friendly_los",
+  "title": "Do models ignore friendly characters within 1\" for line of sight?",
+  "category": "FAQ: General",
+  "keywords": ["friendly", "los", "line of sight"],
+  "content": "**No.** Models only ignore obstructions within 1\" for **Cover Modifiers** (Arcane draw size), but not for **Line of Sight** itself.",
+  "searchable": true
+}

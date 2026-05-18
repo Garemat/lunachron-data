@@ -1,0 +1,8 @@
+{
+  "id": "actions",
+  "title": "Character Actions",
+  "category": "Gameplay",
+  "keywords": ["step", "jog", "traverse", "harvest", "attack"],
+  "content": "Step (1) – Move up to 1” in any direction.\nJog (0) – Once per turn. Move up to 4”. If engaged, you cannot increase distance from enemy.\nTraverse (2) – Move across an obstacle (1” thick or less) if in base contact.\nHarvest (1) – Reduce Depth Value of a Moonstone in base contact by -1. Possession gained at '0'. Cannot be taken if engaged.\nMelee Attack (1) – Make an attack against a model within Melee Range and LoS.\nActive Ability (X) – Perform effect listed on card.\nArcane Ability (X) – Resolve Arcane Ability logic.",
+  "searchable": true
+}

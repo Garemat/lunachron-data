@@ -1,0 +1,8 @@
+{
+  "id": "grow_moonstones",
+  "title": "Grow Moonstones",
+  "category": "Game Setup",
+  "keywords": ["drop", "dice", "depth", "mulligan"],
+  "content": "Drop seven 4-sided dice from 12-16” above the centre of the board. Leave them where they fall. The number shown is the **Depth Value**. Characters take possession via the **Harvest** action. Models may move over stones but not overlap them at the end of a move.\n\n**Mulligan** – If unhappy with the spread, a player may request one re-drop per game.",
+  "searchable": true
+}

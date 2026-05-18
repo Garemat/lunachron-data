@@ -1,0 +1,8 @@
+{
+  "id": "faq_combat_follow_up_timing",
+  "title": "Do follow-up attacks happen before End Step effects?",
+  "category": "FAQ: Combat",
+  "keywords": ["follow-up", "end step", "timing"],
+  "content": "**Yes.** Resolve follow-up attacks first, then move to the End Step.",
+  "searchable": true
+}

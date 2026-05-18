@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_squeeze_gap",
+  "title": "Can a model squeeze through a gap smaller than its base?",
+  "category": "FAQ: General",
+  "keywords": ["squeeze", "gap", "movement"],
+  "content": "**Yes**, but only during its own activation and provided it fits flat on the table at the end of the move. You cannot squeeze past enemy models.",
+  "searchable": true
+}

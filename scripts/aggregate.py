@@ -28,6 +28,7 @@ SOURCES = [
     ("characters", "characters/**/*.json"),
     ("upgrades",   "upgrades/**/*.json"),
     ("campaign",   "campaign/**/*.json"),
+    ("rules",      "rules/**/*.json"),
 ]
 
 

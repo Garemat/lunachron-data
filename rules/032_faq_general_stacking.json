@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_stacking",
+  "title": "Do duplicate abilities stack?",
+  "category": "FAQ: General",
+  "keywords": ["stack", "duplicate"],
+  "content": "**Yes.** Unless specified otherwise, bonuses or penalties from the same ability are cumulative.",
+  "searchable": true
+}
