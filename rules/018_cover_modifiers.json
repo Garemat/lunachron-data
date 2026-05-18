@@ -1,0 +1,8 @@
+{
+  "id": "cover_modifiers",
+  "title": "Cover Modifiers",
+  "category": "Arcane",
+  "keywords": ["light", "heavy", "intervening"],
+  "content": "**Light Cover:** -1 Arcane Card draw if lines cross models or terrain.\n**Heavy Cover:** -2 Arcane Card draw if centre-to-centre line crosses models or terrain.\nIgnore obstructions within 1” of the originator.",
+  "searchable": true
+}

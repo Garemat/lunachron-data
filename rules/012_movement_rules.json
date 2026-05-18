@@ -1,0 +1,8 @@
+{
+  "id": "movement_rules",
+  "title": "Movement Rules",
+  "category": "Gameplay",
+  "keywords": ["gaps", "squeeze", "engagements"],
+  "content": "**Engagements** – Engaging enemy models within Melee Range and LoS. Engaged by enemy if within their Melee Range and LoS.\n\n**Moving Through Gaps** – Models can 'squeeze' through gaps between terrain and friendly models even if smaller than base size, provided they can fit at the end of the move. Cannot squeeze past enemies.",
+  "searchable": true
+}

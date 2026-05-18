@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_within_1",
+  "title": "Is a model exactly 1” away considered within 1”?",
+  "category": "FAQ: General",
+  "keywords": ["within", "distance"],
+  "content": "**Yes.** 'Within' means the distance is equal to or less than the given range.",
+  "searchable": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "choose_troupes",
+  "title": "Choose Troupes",
+  "category": "Game Setup",
+  "keywords": ["faction", "size", "cross-faction"],
+  "content": "All players start with an equal number of characters. Choose a faction and select characters belonging to it.\n\n**Troupe Size Recommendations:**\n• 2-Player Game: 6 characters each\n• 3-Player Game: 4 characters each\n• 4-Player Game: 3 characters each\n\n**Cross-faction characters** can be selected by troupes belonging to either parent faction. Each character can only be selected for your troupe once.",
+  "searchable": true
+}

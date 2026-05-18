@@ -1,0 +1,8 @@
+{
+  "id": "faq_char_flintlock_musket",
+  "title": "FLINTLOCK - Shoot Musket frequency",
+  "category": "FAQ: Character Specific",
+  "keywords": ["flintlock", "musket", "reload"],
+  "content": "Flintlock can only shoot once per game unless he successfully uses his **Reload** active ability.",
+  "searchable": true
+}

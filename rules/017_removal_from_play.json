@@ -1,0 +1,8 @@
+{
+  "id": "removal_from_play",
+  "title": "Removal From Play",
+  "category": "Movement & Terrain",
+  "keywords": ["board edge", "possession"],
+  "content": "Characters overlapping the board edge are **Removed from Play**. They do not count as Slain and keep any Moonstones carried (safe for end of game). They do not activate or replenish energy.",
+  "searchable": true
+}

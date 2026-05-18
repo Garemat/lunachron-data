@@ -1,0 +1,8 @@
+{
+  "id": "faq_combat_slain_endstep",
+  "title": "Do End Step effects occur if slain?",
+  "category": "FAQ: Combat",
+  "keywords": ["slain", "end step"],
+  "content": "**Yes.** Signature Move End Step Effects occur even if the character was Slain during the damage resolution.",
+  "searchable": true
+}

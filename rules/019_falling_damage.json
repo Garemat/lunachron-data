@@ -1,0 +1,8 @@
+{
+  "id": "falling_damage",
+  "title": "Falling & Pushing",
+  "category": "Movement & Terrain",
+  "keywords": ["jumping", "wounds", "directly away"],
+  "content": "**Wds from Falling:**\n• 0-2”: None\n• 2-4”: 1/4 total health boxes (round up)\n• 4-6”: 1/2 total health boxes (round up)\n• 6+”: Slain\n\nForced movement cannot normally make enemies fall unless using 'Directly Away' abilities.",
+  "searchable": true
+}

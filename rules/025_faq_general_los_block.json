@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_los_block",
+  "title": "Can line of sight between two 30mm models be blocked solely by one intervening 30mm model?",
+  "category": "FAQ: General",
+  "keywords": ["los", "line of sight", "block"],
+  "content": "**Yes.** A character has LoS if a straight line could be drawn between any part of the originator’s base and the target’s base, without crossing over another model base.",
+  "searchable": true
+}

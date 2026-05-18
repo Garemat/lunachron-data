@@ -1,0 +1,8 @@
+{
+  "id": "reaction_steps",
+  "title": "Reaction Steps",
+  "category": "Gameplay",
+  "keywords": ["outside activation", "out of turn"],
+  "content": "After an action resolves, each opponent may spend 1 energy to make a **Reaction Step** of 1” with one model. Only once per action.",
+  "searchable": true
+}

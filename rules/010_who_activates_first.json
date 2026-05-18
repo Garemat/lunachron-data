@@ -1,0 +1,8 @@
+{
+  "id": "who_activates_first",
+  "title": "Who Activates First",
+  "category": "Gameplay",
+  "keywords": ["roll-off", "initiative"],
+  "content": "Roll a 6-sided die each turn. High score chooses who activates first.\n\n**Initiative Bonuses:**\n• Turn 1: Initiative player wins automatically.\n• Turn 2: Initiative player adds +2 to roll.\n• Turn 3: Initiative player adds +1 to roll.\n• Turn 4+: Normal roll-off.",
+  "searchable": true
+}

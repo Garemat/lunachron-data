@@ -1,0 +1,8 @@
+{
+  "id": "faq_general_pulse_los",
+  "title": "Does a pulse ability need LoS?",
+  "category": "FAQ: General",
+  "keywords": ["pulse", "los", "line of sight"],
+  "content": "**No.** A Pulse affects all models within range regardless of LoS.",
+  "searchable": true
+}

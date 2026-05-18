@@ -1,0 +1,8 @@
+{
+  "id": "holding_dropping",
+  "title": "Holding & Dropping Moonstones",
+  "category": "Basics",
+  "keywords": ["possession", "slow"],
+  "content": "Moonstones are carried on character cards. Possession triggers the **Slow** ability (Jog limited to 2”). Stones cannot be dropped voluntarily. If Slain, all stones drop in base contact with Depth Value '1'.",
+  "searchable": true
+}

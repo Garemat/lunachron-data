@@ -1,0 +1,8 @@
+{
+  "id": "active_abilities",
+  "title": "Active Abilities",
+  "category": "Arcane",
+  "keywords": ["flip", "catastrophe", "X"],
+  "content": "Discard listed energy and select target within range and LoS. \n\n**Flipping Arcane Cards** – Some abilities replace 'X' with the value of the top flipped card. \n**Catastrophe** – If a Catastrophe card is flipped, apply the specific penalty instead of the usual effect. Shuffle card back after resolution.",
+  "searchable": true
+}
